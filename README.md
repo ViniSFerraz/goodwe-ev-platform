@@ -4,11 +4,11 @@
 
 ### Integrantes
 
-- Ângelo Malta Reina — RM: 570769  
-- Gustavo Mendonça Duarte — RM: 570561  
-- Matheus Carpinheiro Moreno — RM: 571770  
-- Renan de Castro Albuquerque — RM: 5705  
-- Vinícius Souza Ferraz — RM: 570622  
+- Ângelo Malta Reina
+- Gustavo Mendonça Duarte
+- Matheus Carpinheiro Moreno 
+- Renan de Castro Albuquerque
+- Vinícius Souza Ferraz
 
 ## Sobre o Projeto
 
