@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from app.rotas.usuario import router as usuario_router
 
 app = FastAPI(
     title = "EV Platform API",
