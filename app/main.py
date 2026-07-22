@@ -2,10 +2,17 @@ from fastapi import FastAPI
 
 app = FastAPI(
     title = "EV Platform API",
-    description = "Challenge GoodWe, grupo 4",
+    description = "API do projeto GoodWe EV Platform - Challenge FIAP | Grupo 4",
     version = "1.0.0",
 )
 
-@app.get("/")
+
+@app.get("/", tags=["Sistema"])
 async def health_check():
-    return {"status": "Ok"}
+    return {
+        "status": "OK",
+        "api": "EV Platform API",
+        "version": "1.0.0"
+    }
+
+app.include_router(usuario_router)
